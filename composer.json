@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "files": [
+            "bootstrap/custom.php"
+        ]
+    }
+}
