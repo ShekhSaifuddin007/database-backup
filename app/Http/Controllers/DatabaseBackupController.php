@@ -42,21 +42,6 @@ class DatabaseBackupController extends Controller
         return back();
     }
 
-    // $path = public_path('delete');
-
-        // if ($handle = opendir($path)) {
-        //     while (false !== ($file = readdir($handle))) {
-        //         // dd($file);
-        //         if ((time() - filectime($path.'/'.$file)) > 86400) {  // 86400 = 60*60*24 = 1 day 
-
-        //             dd(time() - filectime($path.'/'.$file));
-        //             // if (strripos($file, '.sql') !== false) {
-        //             //     unlink($path.'/'.$file);
-        //             // }
-        //         }
-        //     }
-        // }
-
     public function delete($file): RedirectResponse
     {
         $unlink = public_path('storage/backup/'.$file);
