@@ -1,6 +1,6 @@
 ## Database Backup for Laravel
 
-- clone this repo and copy the classes from `app/Console/Commands`
+- clone this repo and copy the classes from `app/Console/Commands` folder
 
 ### Note if you are using laravel version 8 then don't need the class from
 
@@ -9,3 +9,7 @@
 - Then copy the class from inside `app/Managers` folder
 
 - Then copy the file from `config/dbbackup`
+
+## Optional thing
+
+- If want to show the db backup `.zip` in the view then copy the controller from `app/Http/Controllers/DatabaseBackupController` and create view however you want.
