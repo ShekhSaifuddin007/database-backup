@@ -14,6 +14,8 @@
 
 - If want to show the db backup `.zip` in the view then copy the controller from `app/Http/Controllers/DatabaseBackupController` and create view however you want.
 
+- run the command `php artisan storage:link`
+
 - Then copy the file from `bootstrap/custom.php` for global function and for available those functions inside `composer.json` add this
 
 ```php
