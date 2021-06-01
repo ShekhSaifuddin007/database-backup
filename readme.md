@@ -10,6 +10,8 @@
 
 - Then copy the file from `config/dbbackup`
 
+- Then run `php artisan database:backup`
+
 ## Optional thing
 
 - If want to show the db backup `.zip` in the view then copy the controller from `app/Http/Controllers/DatabaseBackupController` and create view however you want.
